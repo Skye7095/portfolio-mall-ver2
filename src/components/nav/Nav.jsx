@@ -19,7 +19,7 @@ const Nav = () => {
           <div className={styles.nav_links}>
             <Link to='/login'>로그인</Link>
             <div></div>
-            <Link to='/signin'>회원가입</Link>
+            <Link to='/signup'>회원가입</Link>
           </div>
         </div>
       </div>
