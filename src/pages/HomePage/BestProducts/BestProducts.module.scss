@@ -1,0 +1,40 @@
+.bestproducts_wrapper {
+  position: relative;
+  top: 140px;
+  text-align: left;
+}
+
+.bestproduct_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bestproduct {
+  height: 270px;
+  width: 200px;
+  background: aquamarine;
+  text-align: center;
+  margin: 0 0 100px 0;
+
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .productName {
+    font-size: 14px;
+  }
+
+  .productPrice {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .productPriceUnit {
+    font-size: 19px;
+    font-weight: 700;
+  }
+}

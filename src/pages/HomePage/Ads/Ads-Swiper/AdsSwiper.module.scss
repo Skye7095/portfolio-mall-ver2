@@ -1,0 +1,19 @@
+.swiper {
+  width: 1000px;
+  height: 400px;
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+
+  img {
+    height: 400px;
+    width: 976px;
+    overflow: none;
+  }
+}
