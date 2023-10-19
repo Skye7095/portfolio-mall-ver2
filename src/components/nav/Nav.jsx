@@ -13,7 +13,7 @@ const Nav = () => {
               <BsList size='30'/><span>전체 카테고리</span>
             </button>
             <button className={styles.btn_tranparency}>
-              출석 체크
+              <Link to='attendence'>출석체크</Link>
             </button>
           </div>
           <div className={styles.nav_links}>
